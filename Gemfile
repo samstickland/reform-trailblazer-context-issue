@@ -26,9 +26,16 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.4', require: false
+gem 'dry-types'
 gem 'reform'
-gem 'trailblazer-context'
+gem 'reform-rails'
+gem 'representable'
+gem 'trailblazer'
+gem 'trailblazer-cells'
+gem 'trailblazer-macro'
+gem 'trailblazer-macro-contract'
+gem 'trailblazer-rails'
+gem 'uber'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
